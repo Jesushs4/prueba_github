@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//XD
 public class piramideHueca {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
