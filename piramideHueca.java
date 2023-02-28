@@ -7,10 +7,10 @@ public class piramideHueca {
         int height = sc.nextInt();
         System.out.print("Enter the character: ");
         char chara = sc.next().charAt(0);
-        for (int i=1; i<=height; i++) {
-            System.out.print(" ");
+        for (int i=1; i<=height; i++) { //top part
+            System.out.print("a ");
         } System.out.println(chara);
-        for (int i=2; i<=height*2-3; i+=2) {
+        for (int i=2; i<=height*2-3; i+=2) { // body
             for (int j=i; j<=height*2-2; j+=2) {
                 System.out.print(" ");
             }
@@ -21,7 +21,7 @@ public class piramideHueca {
             System.out.println(""); 
         }
         System.out.print(" ");
-        for (int i=1; i<=height*2-1; i++) {
+        for (int i=1; i<=height*2-1; i++) { // bottom part
             System.out.print(chara);
         }
     }
