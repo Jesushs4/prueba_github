@@ -3,10 +3,13 @@ import java.util.Scanner;
 public class piramideHueca {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        // Se introduce la altura de la pirámide
         System.out.print("Enter the pyramid height: ");
         int height = sc.nextInt();
+        // Se introduce el caracter que se desea utilizar
         System.out.print("Enter the character: ");
         char chara = sc.next().charAt(0);
+        // Pinta la pirámide menos la última fila
         for (int i=1; i<=height; i++) {
             System.out.print(" ");
         } System.out.println(chara);
@@ -20,6 +23,7 @@ public class piramideHueca {
             } System.out.print(chara);
             System.out.println(""); 
         }
+        //Pinta la fila final
         System.out.print(" ");
         for (int i=1; i<=height*2-1; i++) {
             System.out.print(chara);
