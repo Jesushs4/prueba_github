@@ -9,11 +9,16 @@ public class piramideHueca {
         // Se introduce el caracter que se desea utilizar
         System.out.print("Enter the character: ");
         char chara = sc.next().charAt(0);
+<<<<<<< HEAD
         // Pinta la pirámide menos la última fila
         for (int i=1; i<=height; i++) {
             System.out.print(" ");
+=======
+        for (int i=1; i<=height; i++) { //top part
+            System.out.print("a ");
+>>>>>>> d6b33a341e6550b625817ef8fbe282b10eb7490c
         } System.out.println(chara);
-        for (int i=2; i<=height*2-3; i+=2) {
+        for (int i=2; i<=height*2-3; i+=2) { // body
             for (int j=i; j<=height*2-2; j+=2) {
                 System.out.print(" ");
             }
@@ -25,7 +30,7 @@ public class piramideHueca {
         }
         //Pinta la fila final
         System.out.print(" ");
-        for (int i=1; i<=height*2-1; i++) {
+        for (int i=1; i<=height*2-1; i++) { // bottom part
             System.out.print(chara);
         }
     }
