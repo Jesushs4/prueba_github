@@ -1,5 +1,6 @@
 import java.util.Scanner;
 //XD
+//comentarioPrueba
 public class piramideHueca {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -9,14 +10,11 @@ public class piramideHueca {
         // Se introduce el caracter que se desea utilizar
         System.out.print("Enter the character: ");
         char chara = sc.next().charAt(0);
-<<<<<<< HEAD
         // Pinta la pirámide menos la última fila
         for (int i=1; i<=height; i++) {
             System.out.print(" ");
-=======
         for (int i=1; i<=height; i++) { //top part
             System.out.print("a ");
->>>>>>> d6b33a341e6550b625817ef8fbe282b10eb7490c
         } System.out.println(chara);
         for (int i=2; i<=height*2-3; i+=2) { // body
             for (int j=i; j<=height*2-2; j+=2) {
