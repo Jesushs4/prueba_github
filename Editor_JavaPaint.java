@@ -1,4 +1,4 @@
-// JavaPaint: mini editor de imagenes en consola
+// JavaPaint: mini editor de imagenes en consola bbbbbbb
 import java.util.Scanner;
 public class Programa_JavaPaint {
     public static void main (String[] args) {
